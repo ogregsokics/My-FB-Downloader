@@ -79,7 +79,7 @@
          row.innerHTML = `
     
       <td><h4>${ul.type.toString()}</h4></td>
-      <td><iframe src="${ul.link.toString()}" width="320" height="240"></iframe></td>
+      <td><iframe src="${ul.link.toString()}" width="320" height="240" autoplay="false"></iframe></td>
       `;
          list.appendChild(row);
 
