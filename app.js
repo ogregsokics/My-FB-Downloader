@@ -79,7 +79,8 @@
          row.innerHTML = `
     
       <td><h4>${ul.type.toString()}</h4></td>
-      <td><iframe src="${ul.link.toString()}" width="320" height="240" autoplay="false"></iframe></td>
+
+ <video><source src="${ul.link.toString()}" type="video/mp4" width="320" height="240" autoplay="false"></video>
       `;
          list.appendChild(row);
 
