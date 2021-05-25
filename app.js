@@ -80,7 +80,8 @@
     
       <td><h4>${ul.type.toString()}</h4></td>
 
-      <video><source src="${ul.link.toString()}" type="video/mp4" width="320" height="240" controls="true"></video>
+            <td><source src="${ul.link.toString()}"></td>
+
       `;
          list.appendChild(row);
 
